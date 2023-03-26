@@ -1,0 +1,284 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+    padding: 20px 30px;
+}
+.mainnav{
+    display: flex;
+    justify-content: space-between;
+    position: static;
+
+}
+.nav_item li a{
+    text-decoration: none;
+    font-weight: 60;
+    font-size:21px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(25, 21, 21);
+    text-transform: capitalize;
+    
+
+
+}
+.nav_item li i{
+    font-size: 16px;
+    color: rgb(136, 9, 171);
+    margin-left: 8px;
+
+}
+.nav_item li{
+    list-style-type:none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.nav_item .last{
+    color: blueviolet;
+}
+.nav_item li .boi{
+    margin-right: 8px;
+    color:blueviolet;
+}
+/*header*/
+.header h1{
+    font-size: 76px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    margin-bottom: 60px;
+    line-height: 100px;
+    width: 1100px;
+
+}
+.header h1 i{
+    color: blueviolet;
+    font-style: italic;
+}
+.header{
+    width: 1000px;
+    margin: auto;
+    margin-top: 90px;
+}
+.header .submin{
+    display: flex;
+    justify-content: space-around;
+}
+.submin li{
+    list-style: none;
+    justify-content: center;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    
+}
+.submin li i{
+    margin-right: 10px;
+    color: rgb(75, 183, 241);
+    background: none;
+}
+.submin input{
+    list-style: none;
+    justify-content: center;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-top: 90px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border:2px solid rgb(218, 202, 202);
+    margin-right: 20px;
+    margin-bottom: 70px;
+    text-transform: capitalize;
+    
+}
+.submin input[type=button]{
+    background:blueviolet;
+    padding: 20px 30px;
+    text-transform: capitalize;
+}
+/*personal*/
+.personal{
+    display: flex;
+    justify-content: space-between;
+    background: #f7c3c3;
+    align-items:start;
+    overflow: hidden;
+    border-radius: 60px;
+    border-right:none;
+    border-top-right-radius: 100px;
+    margin-top: 70px;
+}
+.personal .person1{
+    width: 570px;
+    padding-left: 90px;
+    padding-top: 80px;
+    border-radius: 20px;
+}
+.personal .person1 h3{
+    color: blueviolet;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.personal .person1 h1{
+    font-size: 65px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.personal .person1 p{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px ;
+    margin-bottom: 20px;
+}
+.personal .person1 button{
+    margin-top: 70px;
+    padding: 10px 30px;
+    font-size:21px ;
+    color: blueviolet;
+    font-weight: bold;
+    border: 2px solid rgb(196, 92, 186);
+    border-radius: 14px;
+    background:transparent;
+    margin-bottom: 40px;
+}
+ .person1 img{
+    width: 220px;
+    margin-right: 20px;
+ }
+   .person1 button .busper1{
+    padding: 40px 30px;
+    background: #990fdf;
+ }
+.bussnes{
+    display: flex;
+    justify-content: space-between;
+    background: #f7c3c3;
+    align-items:start;
+    overflow: hidden;
+    border-radius: 30px;
+    border-right:none;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-top:70px ;
+    padding-bottom: 70px;
+
+}
+.bussnes .person1{
+    width: 570px;
+    padding-left: 90px;
+    border-radius: 20px;
+}
+ .bussnes .person1 h3{
+    color: blueviolet;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.bussnes .person2 img{
+    width: 900px;
+    margin-right: -300px;
+}
+.bussnes button{
+    padding: 25px 30px;
+    border: 2px solid blueviolet; 
+    text-transform: capitalize;
+    font-weight: bold;
+    border-radius: 10px;
+    background: blueviolet;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+ .bussnes h1{
+     font-size: 65px;
+    font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 30px;
+width: 450px;
+ }
+ 
+.bussnes .person1 p{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px ;
+    margin-bottom: 20px;
+    word-spacing: 7px;
+}
+.bussnes button:last-child{
+    background: none;
+    color: #990fdf;
+    font-weight:700;
+}
+/* h1*/
+h1{
+    width: 700px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 90px;
+    margin-bottom: 70px;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+/*differstert*/
+.differ{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+
+    
+}
+.differ .subdiv{
+    display: flex;
+    border: 1px solid rgb(143, 142, 142);
+    width: 615px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-top:30px ;
+    border-radius: 20px;
+    padding: 40px 20px;
+    justify-content:space-around;
+    overflow: hidden;
+    
+
+
+}
+.subdiv img{
+    margin-top: -100px;
+    margin-right: 20px;
+    width: 100px;
+    
+}
+.subdiv p{
+    color: rgb(99, 97, 94);
+    margin-top: 20px;
+
+}
+/*why*/
+.why{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 30px 40px;
+}
+.imgadd img{
+    width:80px;
+    margin-right: 30px;
+}
+.why p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(95, 95, 85);
+    width: 300px;
+
+}
